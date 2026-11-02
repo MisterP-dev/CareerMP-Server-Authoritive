@@ -1,0 +1,5 @@
+Resources/Server/CareerMP/config/
+Resources/Server/CareerMP/saves/
+ServerConfig.toml
+Server.log
+Server.old.log

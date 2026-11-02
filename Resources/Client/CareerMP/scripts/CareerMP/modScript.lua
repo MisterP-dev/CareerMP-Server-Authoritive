@@ -1,0 +1,6 @@
+setExtensionUnloadMode('careerMPEnabler', 'manual')
+setExtensionUnloadMode('careerMPUIApps', 'manual')
+setExtensionUnloadMode('careerMPPlayerPayments', 'manual')
+setExtensionUnloadMode('careerMPPrefabSync', 'manual')
+setExtensionUnloadMode('careerMPPerPartPaint', 'manual')
+setExtensionUnloadMode('/career/careerMP', 'manual')
