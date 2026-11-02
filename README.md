@@ -33,11 +33,14 @@ Every player needs a BeamMP account.
 
 ## Installing
 
-1. Remove any old CareerMP from your server first (`Resources/Client/CareerMP.zip` and `Resources/Server/CareerMP/careerMP.lua`). You can keep the config folder.
-2. Download this repo (Code > Download ZIP) and copy `Resources/Client/CareerMP.zip` and `Resources/Server/CareerMP/` into the same places in your BeamMP server folder.
-3. In `ServerConfig.toml` set `MaxCars = 100` or more and `Map = "/levels/west_coast_usa/info.json"`.
-4. Start the server once. It creates `Resources/Server/CareerMP/config/config.json` and the `saves` folder.
-5. Change whatever you want in the config (see [docs/configuration.md](docs/configuration.md)) and restart the server.
+1. Download `CareerMP-Server-Authoritive-<version>.zip` from the [latest release](https://github.com/MisterP-dev/CareerMP-Server-Authoritive/releases/latest). Not the "Source code" zips, those are the whole repo.
+2. Stop your server and remove any old CareerMP (`Resources/Client/CareerMP.zip` and `Resources/Server/CareerMP/careerMP.lua`). You can keep the config folder.
+3. Unpack the zip into your BeamMP server folder, the one with `ServerConfig.toml` in it. You should end up with `Resources/Client/CareerMP.zip` and `Resources/Server/CareerMP/careerMP.lua`. Windows likes to put everything in an extra folder named after the zip, so check that.
+4. In `ServerConfig.toml` set `MaxCars = 100` or more and `Map = "/levels/west_coast_usa/info.json"`.
+5. Start the server once. It creates `Resources/Server/CareerMP/config/config.json` and the `saves` folder.
+6. Change whatever you want in the config (see [docs/configuration.md](docs/configuration.md)) and restart the server.
+
+Players don't have to install anything, BeamMP downloads the mod for them when they join.
 
 `Resources/Client/CareerMP/` in this repo is the unpacked content of `CareerMP.zip`, so the code can be read on GitHub. The server only needs the zip.
 
